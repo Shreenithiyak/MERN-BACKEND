@@ -5,9 +5,9 @@ What are variables?
 variable is like container to store data 
 
 Difference between var, let, const?
-var=     can be hoisted output=(undefined)              Old version, avoid using
-const =  can't assces before hoisting                   Constant (never change)
-let=     can't assces before hoisting                   Later change allowed
+var=     can be Re-declare =can be hoisted output=(undefined)                  Old version, avoid using
+const =  can't be-(Re-declare/Re-declare) =can't assces before hoisting        Constant (never change)
+let=     can be Re-declare =can't assces before hoisting                       Later change allowed
 
 What is datatype?
 A data type tells JavaScript what kind of value a variable is holding.
@@ -22,24 +22,51 @@ What are operators?
 operators are the symbols to perform logical actions
 
 Types of operators?
---Arithmetic operator
---Comparison operator
---Logical operator
---Assignment operator
---Increment operator
+--Arithmetic operator  (+ - * / %)
+--Comparison operator  (== === > <)
+--Logical operator     (&& || !)
+--Assignment operator  (= += -=)
+--Increment operator   (++ --)
 
 What is expression?
+An expression is something that gives a value. using operators
 
 What is statement?
+Statement = instruction given to JavaScript.
 
 What is control statement?
+Control statements control the flow of execution.
+
+Example:
+        if
+        switch
+        loops
 
 What are conditional statements?
+Used to make decisions.
+
+1  if
+2  if-else
+3  else if
+4  switch
 
 What are looping statements?
+Used to repeat code.
+
+1  for
+2  while
+3  do...while
 
 What is hoisting?
+Hoisting means JavaScript moves variable and function declarations to the top before execution.
 
 What is scope?
+Scope defines where a variable can be accessed.
+
+Types:
+      1. Global scope
+      2.Function scope
+      3.Block scope
 
 What is closure?
+Closure is when a function remembers and accesses variables from its outer scope even after the outer function has finished execution.
