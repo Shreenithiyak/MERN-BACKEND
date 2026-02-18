@@ -5,9 +5,9 @@ What are variables?
 variable is like container to store data 
 
 Difference between var, let, const?
-var=     can be Re-declare =can be hoisted output=(undefined)                  Old version, avoid using
-const =  can't be-(Re-declare/Re-declare) =can't assces before hoisting        Constant (never change)
-let=     can be Re-declare =can't assces before hoisting                       Later change allowed
+var=     can be Re-declare =can be hoisted output=(undefined)                   Old version, avoid using
+const =  can't be-(Re-declare/Re-assign) =can't assces before hoisting(REF ER)  Constant (never change)
+let=     can be Re-assign =can't assces before hoisting (REF ER)                Later change allowed
 
 What is datatype?
 A data type tells JavaScript what kind of value a variable is holding.
@@ -26,7 +26,9 @@ Types of operators?
 --Comparison operator  (== === > <)
 --Logical operator     (&& || !)
 --Assignment operator  (= += -=)
---Increment operator   (++ --)
+--Ternary operator   (condition ? value_if_true : value_if_false;)
+--Bitwise operator   (& | ^ ~ << >> >>>)
+--type of            (typeof,instanceof)
 
 What is expression?
 An expression is something that gives a value. using operators
