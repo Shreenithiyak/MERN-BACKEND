@@ -75,6 +75,7 @@ console.log("After *=:", num3);
 num3 /= 4; // num3 = num3 / 4
 console.log("After /=:", num3);
 // Print the result after each step.
+
 8//  Compare the following and write the output:
 // 10 == "10"
 console.log(10 == "10"); // true (type coercion)
@@ -85,7 +86,7 @@ console.log(10 != "10"); // false (type coercion)
 // 10 !== "10"
 console.log(10 !== "10"); // true (no type coercion)
 
-//  Create two variables: age and hasID.
+9//  Create two variables: age and hasID.
 // Write a condition to check:
   
 // Eligible if age > 18 AND hasID is true
@@ -100,3 +101,14 @@ var hasID2 = false;
 if (age2 < 18 || !hasID2) {
     console.log("Not eligible");
 }
+
+10// Predict Output
+// var a;
+// console.log(a);---------undefined
+
+// a = 5;
+// console.log(a);---------5
+
+// console.log(typeof NaN);------- number
+// console.log(typeof null);------object
+
