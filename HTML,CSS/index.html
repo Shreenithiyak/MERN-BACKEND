@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JavaScript Basics</title>
+<title>INFORMATION WESITTE</title>
 
 <style>
 
@@ -14,13 +14,14 @@ html{
 body{
     margin:0;
     font-family: Arial, sans-serif;
-    background-color:black;
-    color:white;
+    background-color:#f0f0f0;
+    color:black;
     text-align: center;
+    padding: 20px;
 }
 
 header{
-    background:#111;
+    background:peachpuff;
     padding:20px;
     text-align:center;
     font-size:24px;
@@ -34,11 +35,12 @@ header{
 }
 
 aside{
-    width:250px;
+    width:200px;
     background:#1a1a1a;
-    padding:20px;
-    position:sticky;
+    padding:10px;
+    position:fixed;
     top:0;
+    left:0;
     height:100vh;
 }
 
@@ -60,11 +62,12 @@ aside a:hover{
 
 main{
     flex:1;
-    padding:30px;
+    padding:0px;
+    margin-left:220px;
 }
 
 section{
-    margin-bottom:60px;
+    margin-bottom:40px;
 }
 
 h2{
@@ -90,7 +93,7 @@ h2{
     width:100%;
     max-width:500px;
     margin:auto;
-    border:1px solid white;
+    border:1px solid gray;
     border-radius:10px;
 }
 
@@ -109,7 +112,7 @@ h2{
 footer{
     text-align:center;
     padding:15px;
-    background:#111;
+    background:peachpuff;
     border-top:2px solid white;
 }
 
@@ -118,7 +121,7 @@ footer{
 
 <body>
 <header>
-BASIC THING FOR JS
+BASIC THINGS FOR JS
 </header>
 
 <div class="container">
@@ -135,6 +138,7 @@ BASIC THING FOR JS
 <a href="#case8">Implict & Explicit</a>
 <a href="#case9">Truthy & Falsy</a>
 <a href="#case10">Hoisting</a>
+<a href="#case11">Built-in Functions</a>
 </aside>
 
 <main>
@@ -289,11 +293,129 @@ written the out put using return key word we compare the value as argument, argu
 </div>
 <section id="case10">
     <h2>Hoisting</h2>
-    <p></p>
+    <p>hoisting is a JavaScript mechanism where variables and functions are moved to the top of their scope before code execution <br>
+    EX:var a;<br>console.log(a);<br>var a = 10;</p>
 </section>
-<footer>
-© 2026 JavaScript Learning | Designed by You
-</footer>
+<div class="carousel">
 
+<div class="slides">
+
+<div class="slide">
+<h4>1.primitive types</h4>
+<p>
+1. Number<br>
+2. String<br>
+3. Boolean<br>
+4. Undefined<br>
+5. Null<br>
+6. Symbol<br>
+7. BigInt
+</p>
+</div>
+
+<div class="slide">
+<h4>2.non-primitive types</h4>
+<p>
+1. Object<br>
+2. Array<br>
+3. Function
+</p>
+</div>
+
+<div class="slide">
+<h4>3. Reference types[global objects]</h4>
+<p>
+1.Object<br>
+2.Function<br>
+3.Array<br>
+4.String<br>
+5.Number<br>
+6.Boolean<br>
+7.Date<br>
+8.Math<br>
+9.RegExp<br>
+10.Error<br>
+<b>Advance level</b><br>
+1.Map<br>
+2.Set<br>
+3.WeakMap<br>
+4.WeakSet<br>
+5.Promise<br>
+6.JSON<br>
+7.Symbol<br>
+8.BigInt
+</p>
+</div>
+
+<div class="slide">
+<h4>4. Build-in Functions</h4>
+<p>
+1.parseInt() - converts a string to an integer<br>
+2.parseFloat() - converts a string to a floating-point number<br>
+3.isNaN() - checks if a value is NaN (Not-a-Number)<br>
+4.isFinite() - checks if a value is a finite number<br>
+5.parseFloat() - converts a string to a floating-point number<br>
+6.parseFloat() - converts a string to a floating-point number<br>
+7.encodeURIComponent() - encodes a URI component<br>
+8.decodeURIComponent() - decodes a URI component<br>
+9.setTimeout() - executes a function after a specified delay<br>
+10.setInterval() - executes a function repeatedly at specified intervals<br>
+11.clearTimeout() - cancels a timeout set with setTimeout()<br>
+</p>
+</div>
+
+<div class="slide">
+<h4>5. build-in Objects methods</h4>
+<p>
+1.String methods: length, toUpperCase(), toLowerCase(), charAt(), indexOf(), slice(), substring(), replace(), split()<br>
+2.Array methods: push(), pop(), shift(), unshift(), splice(), slice(), indexOf(), forEach(), map(), filter(), reduce()<br>
+3.Object methods: keys(), values(), entries(), assign(), hasOwnProperty(), toString()<br>
+4.Math methods: round(), floor(), ceil(), random(), max(), min(), abs(), pow()<br>
+5.Date methods: getDate(), getMonth(), getFullYear(), getHours(), getMinutes(), getSeconds(), toISOString()<br>
+6.JSON methods: stringify(), parse()<br>
+7.Promise methods: then(), catch(), finally()<br>
+8.Symbol methods: for(), keyFor()<br>
+9.BigInt methods: toString(), valueOf()<br>
+</p>
+</div>
+
+<div class="slide">
+<h4>6. Browser Built-in Objects (Web APIs)</h4>
+<p>
+1.window<br>
+2.document<br>
+3.console<br>
+4.localStorage<br>
+5.sessionStorage<br>
+6.fetch<br>
+7.alert()<br>
+8.setTimeout()<br>
+9.setInterval()
+</p>
+</div>
+
+<div class="slide">
+<h4>ES6+ Modern Built-ins</h4>
+<p>
+1.Promise<br>
+2.async/await<br>
+3.Map<br>
+4.Set<br>
+5.WeakMap<br>
+6.WeakSet<br>
+7.Symbol<br>
+8.BigInt<br>
+9.Proxy<br>
+10.Reflect
+</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 JavaScript Learning | Designed by SHREE
+</footer>
 </body>
 </html>
