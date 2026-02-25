@@ -139,6 +139,10 @@ BASIC THINGS FOR JS
 <a href="#case9">Truthy & Falsy</a>
 <a href="#case10">Hoisting</a>
 <a href="#case11">Built-in Functions</a>
+<a href="#case12"> Methods & returns</a>
+<a href="#case13">closure & lexical scope</a>
+<a href="#case14">CallBacks</a>
+<a href="#case15"></a>
 </aside>
 
 <main>
@@ -296,6 +300,8 @@ written the out put using return key word we compare the value as argument, argu
     <p>hoisting is a JavaScript mechanism where variables and functions are moved to the top of their scope before code execution <br>
     EX:var a;<br>console.log(a);<br>var a = 10;</p>
 </section>
+
+<section id="case11">
 <div class="carousel">
 
 <div class="slides">
@@ -409,10 +415,47 @@ written the out put using return key word we compare the value as argument, argu
 10.Reflect
 </p>
 </div>
-
 </div>
-
 </div>
+</section>
+
+<section id="case12">
+<h2> Methods & returns[MOST COMMLY WE USE]</h2>
+<p>Method	Returns<br>
+push	= New length<br>
+pop	   =  Removed element<br>
+map	   =  New array<br>
+filter	 =  New array<br>
+reduce	= Single value<br>
+forEach =	undefined<br>
+find	= Element / undefined<br>
+includes =  Boolean<br>
+some	= Boolean<br>
+every	= Boolean</p>
+</section>
+<section id="case13">
+    <div class="carousel">
+        <div class="slides">
+            <div class="slide">
+                <b> lexical scope</b>
+                <p> lexical scope means that a part in function where u declare a variable is not important but where you call it is important<br>
+                if we declared in outer function and calling back it in inner function or like [nested] then it is called lexical scope</p>
+            </div>
+             <div class="slide">
+                <b> closure</b>
+        <p>it is concept like parent to child relationship in scope.it will remember the value after the execution of the outer function<br> 
+        it is mainly used for data privacy.</p>
+    </div>
+    </div>
+    </div>
+</section>
+<section id="case14">
+    <h2> CallBacks</h2>
+    <p><b>Normal callback</b><br>A callback is a function that is passed as an argument to another function and is executed after some operation is completed<br>
+    <b>callback injection</b><br> is a technique where a callback function is injected into another function to customize its behavior.<br>
+    <b>Array callback</b><br> Array callback are the function that we pass as an argument in array method like map,filter,reduce etc...<br>
+    <b>validation callback</b><br> validation callback are the function that we pass as an argument in validation method like some,every etc..</p>
+    </section>
 
 <footer>
 © 2026 JavaScript Learning | Designed by SHREE
