@@ -156,3 +156,25 @@ console.log(grouped);
 const nestedArray = [[1,2], [3,4], [5]];
 const flat= nestedArray.reduce((acc, curr) => acc.concat(curr), []);
 console.log(flat);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

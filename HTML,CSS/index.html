@@ -32,6 +32,7 @@ header{
 .container{
     display:flex;
     min-height:100vh;
+  
 }
 
 aside{
@@ -42,6 +43,7 @@ aside{
     top:0;
     left:0;
     height:100vh;
+   overflow-y: auto;
 }
 
 aside a{
@@ -52,22 +54,27 @@ aside a{
     padding:8px;
     border-radius:6px;
     transition:0.3s;
+   
+
 }
 
 aside a:hover{
     background:white;
     color:black;
     transform:translateX(5px);
+    
 }
 
 main{
     flex:1;
     padding:0px;
     margin-left:220px;
+   
 }
 
 section{
     margin-bottom:40px;
+    text-align: center;
 }
 
 h2{
@@ -79,10 +86,12 @@ h2{
     display:flex;
     gap:40px;
     flex-wrap:wrap;
+     
 }
 
 .box{
     width:45%;
+     
 }
 
 .carousel{
@@ -100,6 +109,8 @@ h2{
 .slides{
     display:flex;
     width:100%;
+    text-align: center;
+   
 }
 
 .slide{
@@ -142,7 +153,7 @@ BASIC THINGS FOR JS
 <a href="#case12"> Methods & returns</a>
 <a href="#case13">closure & lexical scope</a>
 <a href="#case14">CallBacks</a>
-<a href="#case15"></a>
+<a href="#case15">ES6 Features</a>
 </aside>
 
 <main>
@@ -220,7 +231,8 @@ it is not only for the browser.js can also be used outside the browser using the
     <p>6. Bitwise Operators: &, |, ^, ~, <<, >>, >>></p>
     <p>7. String Operators: +, +=</p>
     <p>8. Ternary Operator: ?:</p>
-    <p>9. typeof Operator: typeof</p></section>
+    <p>9. typeof Operator: typeof</p>
+</section>
 
 <section id="case5">
 <h2> ARRAY</h2>
@@ -231,9 +243,10 @@ it is not only for the browser.js can also be used outside the browser using the
 
 <section id="case6">
 <h2> OBJECTS</h2>
-   <p>In js object is an collection of key & value pair each.key alsothey called property name,
+<p>In js object is an collection of key & value pair each.key alsothey called property name,
     each key is associated a value<br>so the object are mainly used to represent real world entities object or not indexed numerically<br>
-so instead of accesed using key mostly object handeled for structured value</p></section>
+so instead of accesed using key mostly object handeled for structured value</p>
+</section>
 
 <section id="case7">
 <h2> FUNCTIONS</h2>
@@ -278,6 +291,13 @@ written the out put using return key word we compare the value as argument, argu
 <h4>2. Explicit</h4>
 <p>Explicit means we manually convert datatypes to another <br>EX.var userName = String(123);== "123" [we desides the datatype]</p>
 </div>
+<div class="slide">
+    <h4>Shallow Copy</h4>
+    <p>only first level properties changes. if object nested object they still reflect same, memory modify the nested object affected original</p>
+</div>
+<div class="slide">
+    <h4>Deep Copy</h4>
+    <p>all level properties changes. if object nested object they still reflect same, memory modify the nested object not affected original</p>
 </section>
 <section id="case9">
 <h2> TRUTHY & FALSY</h2>
@@ -292,6 +312,16 @@ written the out put using return key word we compare the value as argument, argu
 <div class="slide">
 <h4>2. Falsy</h4>
 <p>1.0<br>2.-0<br>3.''<br>4.""<br>5.null<br>6.undefined<br>7.NaN<br>8.false</p>
+</div>
+
+<div class="slide">
+<h4>Contional statement</h4>
+<p>if a decision making execution of block of code only when a specific condition is true.js everywhere the condition it into a boolean before the execution</p>
+</div>
+<div class="slide">
+<h4>Control statement</h4>
+<p>loop are use to execute the code repeatedly untill the condition is fail js provide (for,while,do while)mainly in real app</p>
+</div>
 </section>
 </main>
 </div>
@@ -455,7 +485,31 @@ every	= Boolean</p>
     <b>callback injection</b><br> is a technique where a callback function is injected into another function to customize its behavior.<br>
     <b>Array callback</b><br> Array callback are the function that we pass as an argument in array method like map,filter,reduce etc...<br>
     <b>validation callback</b><br> validation callback are the function that we pass as an argument in validation method like some,every etc..</p>
-    </section>
+</section>
+<section id="case15">
+    <h2> Es6 Features</h2>
+    <h3>features   &    uses </h3>
+    <p>let & const = block scope variable declaration<br>
+    arrow function =  syntatic sugar(single line code) for writing function<br>
+    template literals =  easier way to create string with embedded expressions<br>
+    destructuring assignment =  unpacking values from arrays or properties from objects into Extract values easily.<br>
+    spread operator =  expand iterable into individual elements or merge arrays/objects<br>
+    rest operator=  collect multiple elements into an array or object ,use only in function definition<br>
+    default parameters =  set default values for function parameters<br>
+    classes =  syntactic sugar for creating objects and handling inheritance<br>
+    modules =  organize code into reusable modules with import/export<br>
+    promises =  handle asynchronous operations more effectively<br>
+    async/await =  syntactic sugar for working with promises, making asynchronous code look synchronous<br>
+    Map & Set =  new data structures for storing unique values and key-value pairs<br>
+    optional chaining =  safely access nested object properties without worrying about null or undefined<br>
+    nullish coalescing operator =  provide a default value when dealing with null or undefined<br>
+    for...of loop =  iterate over iterable objects like arrays, strings, maps, sets<br>
+    generators =  create iterators with the ability to pause and resume execution<br>
+    Symbol =  create unique identifiers for object properties<br>
+    BigInt =  handle large integers beyond the safe limit of Number<br>
+    Proxy =  create a proxy for an object to customize its behavior<br>
+    Reflect =  provide methods for interceptable JavaScript operations</p>
+</section>
 
 <footer>
 © 2026 JavaScript Learning | Designed by SHREE
