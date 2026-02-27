@@ -48,3 +48,39 @@ for(i=1;i<100;i++){
     sum+i;
 }
 console.log(sum);
+
+
+//for of loop--------------------to organaizing a collection of data in an array  [for (let value of array)]
+const arr =[1,2,3,4,5,6];
+for (let value of arr){
+  console.log(value);
+}
+
+
+
+//for in loop------------------to organize a data using indexing/object value [for (let index in array)]
+const array=["car"["bike","bus"],"train"["flignt"],"ship"["boat"]];
+for (let index in array){
+  console.log(index);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
