@@ -103,24 +103,23 @@ console.log(num[i]);
 // Check palindrome (string & number)
 
 let g="mom";
-for(i=g.length-1;i>=0;i--){
+for(i=g.length-1;i>=1;i--){
     if(g[i]===g[i]){
          console.log("pallindrome");
     }else{
         console.log("non palindrome");
     }  
 }
-console.log(g);
+
 
 let h="33";
-for(i=d.length-1;i>=0;i--){
+for(i=h.length-1;i>=1;i--){
     if(h[i]===h[i]){
         console.log("pallindrome");
     }else{
         console.log("non pallindrome");
     }
 }
-console.log(h);
 // Find factorial
 
 // Fibonacci series
@@ -146,7 +145,7 @@ for(i=c.length-1;i>=0;i--){
         console.log("non palindrome");
     }  
 }
-console.log(c);
+
 
 let d="33";
 for(i=d.length-1;i>=0;i--){
@@ -156,7 +155,7 @@ for(i=d.length-1;i>=0;i--){
         console.log("non pallindrome");
     }
 }
-console.log(d);
+
 // Find factorial
 
 // Fibonacci series
