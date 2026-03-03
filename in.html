@@ -1,12 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    async function getdata(){
+  try{
+       const response=await fetch("https://dummyjson.com/products");
+  const data=await response.json();
+  console.log(data);
+  }
+  catch(e){
+    console.log(e);
+  }
+}
+getdata();
+  </script>
+</body>
+</html>
 <script>
     
-const arr0=["a","c","f"];
-const cp=[...arr0, "g","t"];
-console.log(cp);
+// const arr0=["a","c","f"];
+// const cp=[...arr0, "g","t"];
+// console.log(cp);
   
-//   ...arr0; ------------ unexpected token 
+// //   ...arr0; ------------ unexpected token 
 
 
-  const arrarr={...arr0,cp};
-  console.log(arrarr);
+//   const arrarr={...arr0,cp};
+//   console.log(arrarr);
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>

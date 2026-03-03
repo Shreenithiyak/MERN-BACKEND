@@ -55,32 +55,46 @@ const arr =[1,2,3,4,5,6];
 for (let value of arr){
   console.log(value);
 }
-
+let arr8=[10,20,30,40,50];
+for (i=0;i<arr8.length;i++){
+  console.log(arr8[i]);
+}
 
 
 //for in loop------------------to organize a data using indexing/object value [for (let index in array)]
-const array=["car"["bike","bus"],"train"["flignt"],"ship"["boat"]];
+const array=["car","train","ship"];
 for (let index in array){
-  console.log(index);
+  console.log(array[index]);
 }
 
 
 
 
+for(i=0;i<=5;i++){
+  let count="";
+   for(j=0;j<=i;j++){
+    count+='*';
+     
+  
+   }
+   console.log(count);
+}
 
 
 
 
+// 1	Day 1: Print numbers 1–10, 10–1, even numbers till 50.
+     for(i=1;i<=10;i++){
+      console.log(i);
+     }
+     for(i=10;i>=1;i--){
+      console.log(i);
+     }
+     for (i=0;i<50;i+=2){
+       console.log(i);
+     }
 
-
-
-
-
-
-
-
-
-
-
-
+// 2	Day 2: Print odd numbers, sum of numbers till n, multiplication table.
+    for(i=0;i<=100;i+=2)
+      
 

@@ -13,7 +13,7 @@ const arr=[...number];
 console.log(arr);
 
 //swap numbers
-// let a=12;
+//let a=12;
 let e=14;
 [a,e]=[e,a];
 console.log(a,e);
