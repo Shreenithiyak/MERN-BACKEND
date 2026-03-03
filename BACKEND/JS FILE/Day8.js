@@ -103,25 +103,34 @@ console.log(num[i]);
 // Check palindrome (string & number)
 
 let g="mom";
-for(i=g.length-1;i>=1;i--){
-    if(g[i]===g[i]){
-         console.log("pallindrome");
-    }else{
-        console.log("non palindrome");
-    }  
+let rev="";
+ for(i=g.length-1;i>=0;i--){
+    rev+=g[i];
+ }
+ if(g===rev){
+    console.log("pallindrome");
+ }else{
+   console.log("not pallindrome");
+ }
+ 
+let t="3333333";
+let reverse="";
+for(i=t.length-1;i>=0;i--){
+    reverse+=t[i];
 }
-
-
-let h="33";
-for(i=h.length-1;i>=1;i--){
-    if(h[i]===h[i]){
-        console.log("pallindrome");
-    }else{
-        console.log("non pallindrome");
-    }
+if(t===reverse){
+    console.log("yes it is...");
+}else{
+    console.log("ist not");
 }
 // Find factorial
-
+ let mul=[1,2,3,4,5];
+ for(i=1;i<mul.length;i++){
+    let mul=1;
+    for(j=0;j<i;j++){
+       mul=mul*i; 
+    }  
+}console.log(mul);
 // Fibonacci series
 
 // Check prime number
@@ -137,23 +146,26 @@ for(i=b.length-1;i>=0;i--){
 console.log(b[i]);
 }
 // Check palindrome (string & number)
-let c="mom";
+let c="dad";
+let reve="";
 for(i=c.length-1;i>=0;i--){
-    if(c[i]===c[i]){
-         console.log("pallindrome");
-    }else{
-        console.log("non palindrome");
-    }  
+    reve+=c[i];
+}
+if(c===reve){
+    console.log("pallindrome");
+}else{
+    console.log("not pallindrome");
 }
 
-
-let d="33";
+let d="3333333";
+let rever="";
 for(i=d.length-1;i>=0;i--){
-    if(d[i]===d[i]){
-        console.log("pallindrome");
-    }else{
-        console.log("non pallindrome");
-    }
+    rever+=d[i];
+}
+if(d===rever){
+    console.log("yes it is...");
+}else{
+    console.log("ist not");
 }
 
 // Find factorial
