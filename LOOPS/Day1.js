@@ -106,10 +106,19 @@ for(i=1;i<=n;i++){
 }
 console.log(fact);
 
-let arrr=[1,2,3,4,5,6,7];
+let arrr=1234567
 let count=0;
-for(i=0;i>=arrr.length;i++){
-  countt++;
+for(i=1;i<=arrr;i++){
+  count=arrr/10;
 }
 console.log(count);
 // 4	Day 4: Reverse a number, sum of digits.
+
+
+
+
+
+
+
+
+
