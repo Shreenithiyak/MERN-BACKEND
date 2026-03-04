@@ -74,8 +74,6 @@ for(i=0;i<=5;i++){
   let count="";
    for(j=0;j<=i;j++){
     count+='*';
-     
-  
    }
    console.log(count);
 }
@@ -95,6 +93,19 @@ for(i=0;i<=5;i++){
      }
 
 // 2	Day 2: Print odd numbers, sum of numbers till n, multiplication table.
-    for(i=0;i<=100;i+=2)
+    for(i=0;i<=100;i+=2){
+
+    }
       
 
+// 3	Day 3: Factorial of number, count digits in number.
+let n=9;
+let fact=1;
+for(i=1;i<=n;i++){
+  fact=fact*i;
+}
+console.log(fact);
+
+let 
+
+// 4	Day 4: Reverse a number, sum of digits.

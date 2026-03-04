@@ -1,0 +1,46 @@
+<!-- 1. What is React
+React is an js library used to build a user interface especially for single-page-applications(SPA).
+Developed by facebook now its called meta. 
+React mainly using for dynamic webpage.
+It is only focused on view layer of MVC architecture,it means it responsible only for how the UI looks & updates.
+
+2. what is js and what is jsx?
+js = Is an pure logic code with separate file. 
+jsx = it include with XML file which means it also have html elements and customizable tags.
+
+
+3. what is main.jsx why we use?
+main.jsx = This the entry file of the vite react file 
+
+
+4. what is babel compiler?
+It is an Translator to the react file flow like jsx--bable compiler--javascript--browser understanding.
+
+
+5. what is virtual dom? and real dom?
+virtual dom:
+        Is js object represented of the real dom
+        copy of the real dom.
+real dom:
+        when browser loads the html it parses html & create dom tree any changes triggers reflow &repaint
+
+
+
+6. what is export default and named exports
+
+7. how you import the export default ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->

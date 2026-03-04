@@ -124,12 +124,10 @@ if(t===reverse){
     console.log("ist not");
 }
 // Find factorial
- let mul=[1,2,3,4,5];
- for(i=1;i<mul.length;i++){
-    let mul=1;
-    for(j=0;j<i;j++){
+ let multi=5;
+   let mul=1;
+ for(i=1;i<=multi;i++){
        mul=mul*i; 
-    }  
 }console.log(mul);
 // Fibonacci series
 
@@ -169,7 +167,12 @@ if(d===rever){
 }
 
 // Find factorial
-
+let r=8;
+let ans=1;
+for(i=1;i<=r;i++){
+  ans=ans*i;
+}
+console.log(ans);
 // Fibonacci series
 
 // Check prime number
