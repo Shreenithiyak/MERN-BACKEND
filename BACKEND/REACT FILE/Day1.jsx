@@ -45,9 +45,16 @@
 // 
 
 // 2. what is compaoants?
-// 3. what is the type for compoanats?
-// 4. what is fragment tags in components?
+  //piece of UI code which can be reused in multiple places.
+  // it is used purpose of deverlopers understanding the code.
 
+// 3. what is the type for compoanats?
+// functional componants.
+// class based components.
+
+// 4. what is fragment tags in components?
+//  It is non behavioural tag which is used to group the elements.
+//To write an html code inside a react component we use fragment tag. 
 
 
 
