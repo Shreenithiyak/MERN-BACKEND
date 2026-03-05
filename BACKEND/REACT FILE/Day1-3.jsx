@@ -57,7 +57,25 @@
 //To write an html code inside a react component we use fragment tag. 
 
 
+// What is Class Component
 
+// How to create Class Component
+
+// What is State
+
+// setState() process
+
+// Lifecycle methods (Mount / Update / Unmount)
+
+// Real example with button
+
+// What happens without button / without setState
+
+// What is constructor() in React Class Component?
+
+// Why We Use constructor()?
+
+// Why We Use constructor()?
 
 
 
