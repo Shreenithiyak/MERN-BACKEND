@@ -49,33 +49,88 @@
   // it is used purpose of deverlopers understanding the code.
 
 // 3. what is the type for compoanats?
-// functional componants.
-// class based components.
+  // functional componants.
+  // class based components.
 
 // 4. what is fragment tags in components?
-//  It is non behavioural tag which is used to group the elements.
-//To write an html code inside a react component we use fragment tag. 
+  //  It is non behavioural tag which is used to group the elements.
+  //To write an html code inside a react component we use fragment tag. 
 
 
 // What is Class Component
+  // class component is a js class that helps to create UI react. 
 
 // How to create Class Component
+  // for example: class App extends component{
+  // constructor(){
+  // super()}
+  // render(){
+  // return(jsx)}
+  // }----this is the syntax for creating the class component.
 
 // What is State
+  // state is used to store dynamic values inside a component which means (jsx) 
+ //for example:we use it like {this.state.count} this state by syntax we use below the constructor 
+ // and also we write without it.
 
 // setState() process
+   //this is used to update the current value  of the commponents data to the state
+   // setState() syntax
+   // this.setState({count:count+1})
 
 // Lifecycle methods (Mount / Update / Unmount)
+  // mount: Component created and shown on screen
+  // flow like:class component--constructor--render--componentDidMount
+
+  //update:Component changes when data/state changes
+  //continued as: compoundupdate---render---componentDidUpdate
+
+  //unmount:Component removed from screen
+  //finall: componentunmount--componentWillUnmount 
 
 // Real example with button
+class App extends React.Component {
+
+  constructor(){
+    super();
+
+    this.state = {
+      count: 0
+    };
+  }
+
+  increase = () =>{
+    this.setState({
+      count: this.state.count + 1
+    });
+  }
+
+  render(){
+    return(
+      <div>
+
+        <h1>{this.state.count}</h1>
+
+        <button onClick={this.increase}>
+          Increase
+        </button>
+
+      </div>
+    );
+  }
+
+}
 
 // What happens without button / without setState
+  //
 
 // What is constructor() in React Class Component?
+  // constructor() is a special method which runs when the component is created.
+  //Store default UI state inside the constructor.
+
 
 // Why We Use constructor()?
-
-// Why We Use constructor()?
-
+  //constructor() runs when the component is created (mounting phase).
+  //It is used to set the initial state
 
 
