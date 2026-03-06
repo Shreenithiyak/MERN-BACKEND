@@ -113,6 +113,12 @@ for(i=1;i<=arrr;i++){
 }
 console.log(count);
 // 4	Day 4: Reverse a number, sum of digits.
+let s=[9,8,7,6,5,4]
+let ssum=0;
+for (i=0;i>=s;i--){
+   ssum=s/10;
+ }
+console.log(ssum);
 
 
 
