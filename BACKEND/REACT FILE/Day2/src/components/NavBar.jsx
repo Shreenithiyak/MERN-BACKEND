@@ -1,6 +1,6 @@
-import component from "react"
+import {Component }from "react"
 
-class NavBar extends component{
+class NavBar extends Component{
 
  render(){
     return(
@@ -10,12 +10,8 @@ class NavBar extends component{
        <a href="">about</a>
         <a href="">contact</a>
         <a href="">login</a>
-
+         <Button/>
       </div>
-    
-    
-    
-    
     
     </>
     )
