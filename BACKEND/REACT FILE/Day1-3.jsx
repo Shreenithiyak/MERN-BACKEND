@@ -122,7 +122,8 @@ class App extends React.Component {
 }
 
 // What happens without button / without setState
-  //
+  //without button and setstate ---the webpage will stay on the initial state.which means count 0.
+  
 
 // What is constructor() in React Class Component?
   // constructor() is a special method which runs when the component is created.
