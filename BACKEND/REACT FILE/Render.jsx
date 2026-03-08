@@ -101,11 +101,76 @@ function login(){
 export {login}
 
 // Create a variable:
-
 // age
 // If age >= 18 show:
-
 // Adult
-// Otherwise show:
+// Otherwise show:// Minor
+ const age=23;
+ function age(){
+    return(<>
+    {age>=18?<h1>adult</h1>:<h1>minor</h1>}</>)
+ }
+ export {age}
 
-// Minor
+// Create a variable:// isAdmin
+// If true → display Admin Dashboard
+// If false → show nothing.
+const isAdmin=true;
+function admin(){
+  if(isAdmin){
+    return
+    <h1>admin dashboard</h1>
+  }
+  return<h1>pls login</h1>
+}
+export{admin}
+
+// Create object:
+// user
+//  └ address
+//      └ city
+// Render the city using optional chaining so the app doesn't crash if address is missing
+function App(){
+
+ const user = {
+  name:"sri",
+  address:{
+    city:"Chennai"
+  }
+ }
+
+ return <h1>{user?.address?.city}</h1>
+
+}
+export{App}
+
+// Create variable:
+// username// If username is null or undefined, show
+// Guest User// Otherwise show the username.
+function App(){
+ const user = {
+  name:null
+ }
+
+ return(
+   <h1>{user.name ?? "Guest User"}</h1>
+ )
+
+}
+export{App}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
