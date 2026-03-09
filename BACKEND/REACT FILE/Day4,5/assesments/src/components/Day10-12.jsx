@@ -89,7 +89,8 @@
   //finall: componentunmount--componentWillUnmount 
 
 // Real example with button
-class App extends React.Component {
+import { Component } from "react"
+class App extends Component {
 
   constructor(){
     super();

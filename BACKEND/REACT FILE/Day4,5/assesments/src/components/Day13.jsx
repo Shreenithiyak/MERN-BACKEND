@@ -23,9 +23,10 @@ function app(){
 
 // 8. Ternary opeator        
 //short way of writing if else inside jsx
-function q(){
+function a(){
     return(<h1>{condition?"t":"f"}</h1>)
 }
+
 // 9. Logical && Rendering 
 //show UI only when condition is true
 function r(){
