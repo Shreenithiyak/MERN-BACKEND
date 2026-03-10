@@ -1,12 +1,15 @@
 
 
-const Productcard = ({props}) => {
+const Productcard = ({transfer}) => {
+   
+
+
   return (
     <>
     <div>
-      <h1>{props.Data.id}</h1>
-      <p>{props.Data.productname}</p>
-      <p>{props.Data.price}</p>
+      <h1>{transfer.id}</h1>
+      <p>{transfer.productname}</p>
+      <p>{transfer.price}</p>
     </div>
     
     </>

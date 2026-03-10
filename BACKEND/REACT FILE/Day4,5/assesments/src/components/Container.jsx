@@ -1,11 +1,5 @@
-// User List Task
-// Create a container component that stores a list of users in a variable.
-// Example data:// id// name// age
-// Pass the users data to a presentational component and display the user name and age.
-// Requirement:// Container handles data.
-// Presentational component only displays UI.
 
-import Presentational from "./presentational"
+import  Presentational from "./Presentational"
 import Productcard from "./Productcard"
 import StudentMark from "./StudentMark"
 import Skilllist from "./Skilllist"
@@ -32,7 +26,7 @@ const Data=[{id:1,productname:"gadget",price:15000},
  const profile=[{name:"a",role:"developer",location:"chennai"},{name:"b",role:"developer",location:"chennai"},]
   return (
     <>
-    <Presentational passdata={Userlist} />
+    <Presentational passdata={Userlist}/>
     <Productcard transfer={Data}/>
     <StudentMark check={Mark}/>
     <Skilllist list={List}/>

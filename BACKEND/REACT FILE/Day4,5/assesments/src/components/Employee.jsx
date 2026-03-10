@@ -1,9 +1,9 @@
 
-const Employee = ({profile}) => {
+const Employee = ({data}) => {
   return (
    <>
    <div>
-    {profile.map((e,i)=>(
+    {data.map((e,i)=>(
  <div key={i}>
      <h1>{e.name}</h1>
      <p>{e.role}</p>

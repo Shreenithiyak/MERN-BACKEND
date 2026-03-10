@@ -8,7 +8,7 @@ const Skilllist = ({list}) => {
        <div key={i}>
           <h1>{e.name}</h1>
           <ul>{e.skill.map((i)=>(
-            <li>{i}</li>
+            <li key={i}>{i}</li>
           ))}
           </ul>
 
