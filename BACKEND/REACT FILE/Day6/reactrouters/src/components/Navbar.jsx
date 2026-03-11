@@ -6,9 +6,10 @@ const Navbar = () => {
    <>
  <div className='bg-blue-300 p-6 '>
     <div className="flex ml-300 gap-9">
-    <Link to ="/">Home</Link>
+   <Link to ="/">Home</Link>
    <Link to ="/about">About</Link>
    <Link to ="/contact">Contact</Link>
+   
     </div>
  </div>
    </>

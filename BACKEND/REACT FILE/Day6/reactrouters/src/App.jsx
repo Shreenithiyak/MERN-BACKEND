@@ -7,13 +7,6 @@ const App = () => {
     <Navbar/>
     <AppRoute/>
     
-    
-    
-    
-    
-    
-    
-    
     </>
   )
 }
