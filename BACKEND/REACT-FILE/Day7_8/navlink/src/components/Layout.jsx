@@ -1,4 +1,5 @@
 
+import { Outlet } from 'react-router-dom'
 import Navlink from './Navlink'
 
 const Dashboardlayout = () => {
@@ -6,6 +7,7 @@ const Dashboardlayout = () => {
    <>
    
    <Navlink/>
+   <Outlet/>
    </>
   )
 }
