@@ -3,20 +3,21 @@ import Login from "./components/Login"
 import Dashboardlayout from "./components/Layout"
 import Dashboard from "./components/Dashboard"
 import Profile from "./components/Profile"
+import Register from "./components/Register"
 
 
 const Approutes = () => {
   return (
     <>
     <Routes>
-    <Route element={<Dashboardlayout/>}>
-  
-    <Route path="/ Dashboard" element={< Dashboard/>}/>
-    <Route path="/ Profile" element={<Profile/>}/>
-    </Route>
+      <Route path="/" element={<Login/>} />
+      <Route path="/register" element={<Register/>} />
 
-    <Route path="/" element={<Login/>} />
-    
+      <Route element={<Dashboardlayout/>}>
+        <Route path="/dashboard" element={<Dashboard/>}/>
+        <Route path="/profile" element={<Profile/>}/>
+      </Route>
+
     </Routes>
     </>
   )
