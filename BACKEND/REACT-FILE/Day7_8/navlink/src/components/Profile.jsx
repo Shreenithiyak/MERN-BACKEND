@@ -3,7 +3,7 @@ import Navlink from "./Navlink"
 const Profile = () => {
   return (
     <>
-      <Navlink/>
+     <Navlink/>
 
       <div className="p-10">
         <h1 className="text-2xl font-bold">
