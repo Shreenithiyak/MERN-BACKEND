@@ -11,13 +11,17 @@ function App() {
   return (
     <div className="flex flex-col items-center gap-4 mt-20">
 
+      <div className="bg-pink-300 shadow-md rounded-lg p-20">
       <h1 className="text-2xl font-bold">
-        Status : {status ? "Online" : "Offline"}
+       Status : {status ? "Online" : "Offline"}
       </h1>
-
-      <button className="bg-blue-500 text-white px-4 py-2"onClick={toggleStatus} >
-        Toggle Status
+<div>
+     <button className="bg-blue-500 text-white px-4 py-2"onClick={toggleStatus}>
+      Toggle Status
       </button>
+</div>
+
+</div>
 
     </div>
   )
