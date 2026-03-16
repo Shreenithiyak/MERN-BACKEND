@@ -20,10 +20,7 @@ function App() {
       <h1>Name : {user.name}</h1>
       <h1>Age : {user.age}</h1>
 
-      <button
-        className="bg-blue-500 text-white px-4 py-2"
-        onClick={updateName}
-      >
+      <button className="bg-blue-500 text-white px-4 py-2"onClick={updateName} >
         Update Name
       </button>
 

@@ -23,10 +23,7 @@ function App() {
       <h1>Role : {employee.role}</h1>
       <h1>Experience : {employee.experience}</h1>
 
-      <button
-        className="bg-green-500 text-white px-4 py-2"
-        onClick={promote}
-      >
+      <button className="bg-green-500 text-white px-4 py-2"onClick={promote}>
         Promote
       </button>
 
