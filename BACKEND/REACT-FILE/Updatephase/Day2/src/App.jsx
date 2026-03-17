@@ -6,6 +6,8 @@ function App() {
 
   const [count, setCount] = useState(0)
   const[toggle,setToggle] = useState()
+  const[skill,setSkill] = useState(["html","js"])
+  const[user,setUser] = useState({name:"Ravi",age:22})
 
   const increase = () => {
     setCount(prev=> prev+1 )
@@ -18,7 +20,13 @@ function App() {
 const toggleStatus = () => {
     setToggle(prev =>!prev)
   }
+const add = () => {
+  setSkill(prev=>[...prev,"react"])
+}
 
+const increaseAge =()=>{
+  setUser(prev=>({...prev,age:prev.age+1}))
+}
 
   return (
     <>
@@ -32,10 +40,14 @@ const toggleStatus = () => {
       </div>
   
      <h1>Status:{toggle?"correct counter":"wrong logic couter"}</h1>
-     <button className="text-bold" onClick={toggleStatus}>Toggle</button>
+     <button  className="bg-blue-500 text-white px-4 py-2"onClick={toggleStatus}>Toggle</button>
+
+      <h1 className="p-4 text-2xl text-bold">{skill}</h1>
+      <button  className="bg-blue-500 text-white px-4 py-2" onClick={add}>check</button>
 
 
-
+     <h1>Name : {user.name}</h1><h1>Age : {user.age}</h1>
+     <button  className="bg-blue-500 text-white px-4 py-2"onClick={increaseAge} >Increase Age</button>
 
 
     </div>
