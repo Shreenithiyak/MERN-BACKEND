@@ -1,7 +1,4 @@
-
-import './App.css'
-import Logo from './components/Logo'
-import Navbar from './components/Navbar'
+import { Route, Routes } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 
 function App() {
@@ -9,9 +6,12 @@ function App() {
 
   return (
     <>
-     <Logo/>
-     <Navbar/>
-    <Homepage/>
+
+    <Routes>
+      <Route path="/" element={<Homepage/>}/>
+      <Route path="/" element={<Homepage/>}/>
+      <Route path="/" element={<Homepage/>}/>
+    </Routes>
     </>
   )
 }
