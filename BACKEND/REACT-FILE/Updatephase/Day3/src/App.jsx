@@ -1,33 +1,41 @@
-import { Link, useNavigate } from "react-router-dom"
+
 import { useState } from "react"
 const Login = () => {
 
-  const navigate = useNavigate()
-  const[name,setName] = useState("")
+  const[username,setUserName] = useState({name:"",email:"",age:""})
 
-  const handleLogin = () => {
-    navigate("/dashboard")
+  const handleLogin = (e) => {
+    setUserName((prev)=>({...prev,[e.target.name]:e.target.value}))
+
   }
+  const handlesubmit = (e) => {
+    e.preventDefault()
+  console.log(username)
+  } 
 
   return (
-    <div className="flex flex-col items-center gap-4 mt-40">
+<form onSubmit={handlesubmit}>
 
-<div className="bg-blue-300 text-white p-25 rouded-md flex flex-col items-center gap-6">
-        <h1 className="text-2xl font-bold">Login</h1>
+      <div className="flex flex-col items-center gap-4 mt-40">
 
-      <input className="border p-2" placeholder="Enter name" value={name}onChange={(e)=>setName(e.target.value)}/>
-       <p className="text-gray-700">{name}</p>
+     <div className="bg-blue-300 text-white p-25 rouded-md flex flex-col items-center gap-6">
+      <h1 className="text-2xl font-bold">Login</h1>
 
-      <button  onClick={handleLogin}className="bg-blue-500 text-white px-4 py-2">
-        Login
-      </button>
+      <input className="border p-2" placeholder="Enter name"name="name" value={username.name}onChange={handleLogin}/>
+       
 
-      <Link className="text-blue-600" to="/register">
-        Create Account
-      </Link>
+      <input className="border p-2" placeholder="Enter Email" name="email"value={username.email}onChange={handleLogin}/>
+  
+
+      <input className="border p-2" placeholder="Enter Age"name="age" value={username.age}onChange={handleLogin}/>
+      
+
+      <button  className="bg-blue-500 text-white px-4 py-2"type="submit">Login</button>
+
+
 </div>
-
-    </div>
+  </div>
+</form>
   )
 }
 
