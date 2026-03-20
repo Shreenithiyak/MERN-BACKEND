@@ -1,6 +1,6 @@
 
 
-const Contact = () => {
+const Updatephase = () => {
   return (
     <>
   <div>
@@ -15,4 +15,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Updatephase

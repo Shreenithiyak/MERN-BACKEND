@@ -6,9 +6,9 @@ const Navbar = () => {
    <>
  <div className='bg-blue-300 p-6 '>
     <div className="flex ml-300 gap-9">
-   <Link to ="/">Home</Link>
-   <Link to ="/about">About</Link>
-   <Link to ="/contact">Contact</Link>
+   <Link to ="/">INTROUDUCTION</Link>
+   <Link to ="/createphase">CREATE PHASE</Link>
+   <Link to ="/updatephase">UPDATE PHASE</Link>
    
     </div>
  </div>
