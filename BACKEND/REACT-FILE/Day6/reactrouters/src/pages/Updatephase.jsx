@@ -1,18 +1,34 @@
+import { useNavigate } from "react-router-dom"
 
+const UpdatePhase = () => {
 
-const Updatephase = () => {
+  const navigate = useNavigate()
+
   return (
-    <>
-  <div>
-  <div className="bg-red-200 p-110 flex flex-col justify-center item-center  ">
-  <h1 className=" flex justify-center item-center">contact us</h1>
-  </div>
+    <div className="p-10 flex flex-col gap-6 items-center">
+
+      <h1 className="text-2xl font-bold">Update phase</h1>
+
+      <button onClick={() => navigate("/Upday1")}  className="bg-blue-500 text-white px-4 py-2" >
+        Task 1
+      </button>
+
+      <button onClick={() => navigate("/Upday2")} className="bg-green-500 text-white px-4 py-2" >
+        Task 2
+      </button>
+
+      
+      <button onClick={() => navigate("/Upday3")} className="bg-red-500 text-white px-4 py-2" >
+        Task 3
+      </button>
+
+     
+      <button onClick={() => navigate("/Upday4")} className="bg-purple-500 text-white px-4 py-2" >
+        Task 4
+      </button>
 
     </div>
-    
-    
-    </>
   )
 }
 
-export default Updatephase
+export default UpdatePhase
