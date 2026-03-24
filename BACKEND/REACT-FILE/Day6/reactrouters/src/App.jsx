@@ -4,7 +4,7 @@ import AppRoute from './Routes/AppRoute'
 const App = () => {
   return (
    <>
-   <div className="text-3xl md:text-xl sm:text-lg">
+   <div className="text-lg sm:text-xl md:text-3xl">
     <nav className="flex  bg-blue-500 p-4">
     <div className="flex  ">
       <h1 className="flex text-3xl ">ASSIGNMENTS</h1>
