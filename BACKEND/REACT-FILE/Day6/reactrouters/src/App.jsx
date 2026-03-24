@@ -5,7 +5,7 @@ const App = () => {
   return (
    <>
    <div className="scale-90 origin-top">
-    <nav className="flex  bg-blue-500 p-4">
+    <nav className="flex  bg-blue-500 p-2">
     <div className="flex  ">
       <h1 className="flex text-3xl ">ASSIGNMENTS</h1>
     </div>
